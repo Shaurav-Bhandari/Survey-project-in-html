@@ -50,7 +50,7 @@ label, legend{
     font-weight: bold;
     display: block;    
 }
-input[type="submit"]{
+button{
     background-color: #37af65;
     border: none;
     height: 2em;
