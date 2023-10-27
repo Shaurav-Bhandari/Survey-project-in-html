@@ -50,7 +50,7 @@ label, legend{
     font-weight: bold;
     display: block;    
 }
-button{
+a input{
     background-color: #37af65;
     border: none;
     height: 2em;
