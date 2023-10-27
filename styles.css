@@ -1,0 +1,84 @@
+.header{
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: 'inter', 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image:linear-gradient(115deg,  rgba(104, 45, 45,0.5),  rgba(120, 57, 57, 0.5)), url(best\ one\ piece.jpg);
+    color: #f3f3f3;
+
+}
+input{
+    width: 100%;
+    background-color: #a51a1acc;
+
+}
+header{
+    display: block;
+}
+.survey-title{
+    text-align: center;
+    font-family: 'Agbalumo', 'Times New Roman', Times, serif;
+    margin: 0 0 0.63rem 0;
+    opacity: 1;
+
+}
+
+.survey-description{
+    text-align: center;
+    font-family: 'Playpen Sans', 'Times New Roman', Times, serif;
+    margin: 0 0 0.63rem 0;
+    opacity: 1;
+}
+.main{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 60vw;
+    min-width: 300px;
+    padding: 0 0 2em 0;
+    background-color: #a52a2acc;
+}
+fieldset{
+    padding: 2.5rem 2.5rem 0 0 1;
+    border: none;
+}
+label, legend{
+    font-weight: bold;
+    display: block;    
+}
+input[type="submit"]{
+    background-color: #37af65;
+    border: none;
+    height: 2em;
+    font-size: 1.1rem;
+    width: 60%;
+    display: block;
+    margin: 1em auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #f3f3f3;
+    font-style: 'inter';
+}
+.check{
+    display: inline;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+
+}
+select{
+    color: black;
+    min-height: 2em;
+    border: 2px solid black;
+}
+div{
+    padding-left: 15px;
+}
+
+
